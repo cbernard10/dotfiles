@@ -721,6 +721,7 @@ require('lazy').setup({
         },
       },
       'saadparwaiz1/cmp_luasnip',
+      'mlaursen/vim-react-snippets',
 
       -- Adds other completion capabilities.
       --  nvim-cmp does not ship with all sources by default. They are split
@@ -728,6 +729,11 @@ require('lazy').setup({
       'hrsh7th/cmp-nvim-lsp',
       'hrsh7th/cmp-path',
     },
+
+    opts = function()
+      vim.api.nvim_set_hl(0, 'CmpGhostText', { link = 'Comment', default = true })
+      require('vim-react-snippets').lazy_load()
+    end,
     config = function()
       -- See `:help cmp`
       local cmp = require 'cmp'
@@ -759,7 +765,7 @@ require('lazy').setup({
           -- Accept ([y]es) the completion.
           --  This will auto-import if your LSP supports it.
           --  This will expand snippets if the LSP sent a snippet.
-          ['<C-y>'] = cmp.mapping.confirm { select = true },
+          ['<C-Enter>'] = cmp.mapping.confirm { select = true },
 
           -- If you prefer more traditional completion keymaps,
           -- you can uncomment the following lines

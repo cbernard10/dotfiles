@@ -1,14 +1,14 @@
-cp ~/.config/alacritty/ .
-cp ~/.config/betterlockscreen/ .
-cp ~/.config/bspwm/ .
-cp ~/.config/btop .
-cp ~/.config/cava/ . 
-cp ~/.config/neofetch/ .
-cp ~/.config/nvim/ . 
-cp ~/.config/picom/ .
-cp ~/.config/polybar/ .
-cp ~/.config/ranger/ .
-cp ~/.config/sxhkd/ .
+cp -r ~/.config/alacritty/ .
+cp -r ~/.config/betterlockscreen/ .
+cp -r ~/.config/bspwm/ .
+cp -r ~/.config/btop .
+cp -r ~/.config/cava/ . 
+cp -r ~/.config/neofetch/ .
+cp -r ~/.config/nvim/ . 
+cp -r ~/.config/picom/ .
+cp -r ~/.config/polybar/ .
+cp -r ~/.config/ranger/ .
+cp -r ~/.config/sxhkd/ .
 cp ~/.Xresources .
 cp ~/.xinitrc .
 git add .

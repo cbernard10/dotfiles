@@ -23,7 +23,7 @@ shift + alt
 # 
 # firefox
 super + d
-	firefox
+	google-chrome-stable
 
 super + e 
 	alacritty -e ranger
