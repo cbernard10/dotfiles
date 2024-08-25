@@ -11,6 +11,7 @@ cp -r ~/.config/ranger/ .
 cp -r ~/.config/sxhkd/ .
 cp ~/.Xresources .
 cp ~/.xinitrc .
+git pull
 git add .
 git commit -m "weekly update"
 git push 
