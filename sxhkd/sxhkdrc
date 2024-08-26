@@ -31,6 +31,12 @@ super + e
 super + Print
 	escrotum
 
+super + b
+	alacritty -e bluetoothctl
+
+super + p
+	urxvt -e btop
+
 # quit/restart bspwm
 super + alt + {q,r}
 	bspc {quit,wm -r}

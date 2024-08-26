@@ -13,5 +13,5 @@ cp -r ~/.config/sxhkd/ .
 cp ~/.Xresources .
 cp ~/.xinitrc .
 git add .
-git commit -m "weekly update"
+git commit -m "update"
 git push 
