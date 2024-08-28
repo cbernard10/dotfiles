@@ -9,7 +9,7 @@ pgrep -x sxhkd >/dev/null || sxhkd &
 picom &
 dunst &
 
-#xrdb ~/.Xresources
+xrdb ~/.Xresources
 #wal -R
 redshift -x
 redshift -l 46.160328:-1.151139 &
