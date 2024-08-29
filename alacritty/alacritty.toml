@@ -2,7 +2,7 @@
 TERM = "alacritty"
 
 [font]
-size = 10
+size = 7.5 
 normal = { family = "hack", style = "Regular" }
 offset = { x = 0, y = 2 }
 

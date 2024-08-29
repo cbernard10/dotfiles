@@ -14,15 +14,15 @@ xrdb ~/.Xresources
 redshift -x
 redshift -l 46.160328:-1.151139 &
 
-# bspc monitor -d I II III IV V VI VII VIII IX X
-
-if [[ $(xrandr -q | grep "DP-0 connected") ]]; then
-    xrandr --output DP-0 --rate 144 --mode 2560x1440 --auto --output DP-4 --rate 144 --mode 2560x1440 --left-of DP-0
-    bspc monitor DP-0 -d II III IV V VI VII VIII IX X
-fi
+bspc monitor -d I II III IV V VI VII VIII IX X
+#
+#if [[ $(xrandr -q | grep "DP-0 connected") ]]; then
+#    xrandr --output DP-0 --rate 144 --mode 2560x1440 --auto --output DP-4 --rate 144 --mode 2560x1440 --left-of DP-0
+#    bspc monitor DP-0 -d II III IV V VI VII VIII IX X
+#fi
 
 sh ~/.config/polybar/launch.sh
-. "${HOME}/.cache/wal/colors.sh"
+#. "${HOME}/.cache/wal/colors.sh"
 
 bspc config pointer_motion_interval 7ms
 bspc config normal_border_color "#444444"

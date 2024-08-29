@@ -35,7 +35,7 @@ super + b
 	alacritty -e bluetoothctl
 
 super + p
-	urxvt -e btop
+	alacritty -e btop
 
 # quit/restart bspwm
 super + alt + {q,r}
