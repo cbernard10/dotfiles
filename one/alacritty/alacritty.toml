@@ -1,0 +1,70 @@
+[env]
+TERM = "alacritty"
+
+[font]
+size = 10
+normal = { family = "hack", style = "Regular" }
+offset = { x = 0, y = 2 }
+
+[window]
+padding = { x = 4, y = 4 }
+
+[colors.primary]
+background = "#000000"
+foreground = "#C0C5CE"
+
+[colors.bright]
+black   = "#000000"
+blue    = "#495BFF"
+cyan    = "#2DC7FF"
+green   = "#00CC66"
+magenta = "#CB9CF2"
+red     = "#D90368"
+white   = "#F3F4F5"
+yellow  = "#F1C40F"
+
+[colors.cursor]
+cursor = "CellForeground"
+text   = "CellBackground"
+
+[colors.footer_bar]
+background = "#000000"
+foreground = "#ED7F10"
+
+[colors.hints.end]
+background = "CellBackground"
+foreground = "CellForeground"
+
+[colors.hints.start]
+background = "CellBackground"
+foreground = "CellForeground"
+
+[colors.line_indicator]
+background = "None"
+foreground = "None"
+
+[colors.normal]
+black   = "#232323"
+blue    = "#495BFF"
+cyan    = "#5FB3B3"
+green   = "#00CC66"
+magenta = "#CB9CF2"
+red     = "#D90368"
+white   = "#e6e6e6"
+yellow  = "#F1C40F"
+
+[colors.search.focused_match]
+background = "CellBackground"
+foreground = "CellForeground"
+
+[colors.search.matches]
+background = "CellBackground"
+foreground = "CellForeground"
+
+[colors.selection]
+background = "CellForeground"
+text       = "CellBackground"
+
+[colors.vi_mode_cursor]
+cursor = "CellForeground"
+text   = "CellBackground"
