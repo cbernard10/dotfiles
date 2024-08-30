@@ -2,6 +2,7 @@
 killall redshift
 killall polybar
 
+sh ~/.config/polybar/launch.sh
 # setxkbmap fr
 setxkbmap -option grp:alt_shift_toggle fr,us &
 
@@ -21,7 +22,6 @@ bspc monitor -d I II III IV V VI VII VIII IX X
 #    bspc monitor DP-0 -d II III IV V VI VII VIII IX X
 #fi
 
-sh ~/.config/polybar/launch.sh
 #. "${HOME}/.cache/wal/colors.sh"
 
 bspc config pointer_motion_interval 7ms
