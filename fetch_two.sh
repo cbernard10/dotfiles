@@ -12,6 +12,7 @@ cp -r ~/.config/ranger/ two/
 cp -r ~/.config/sxhkd/ two/
 cp ~/.Xresources two/
 cp ~/.xinitrc two/
+cp /etc/X11/xorg.conf.d/30-touchpad.conf two/X11/xorg.conf.d
 git add .
 git commit -m "update two"
 git push 
