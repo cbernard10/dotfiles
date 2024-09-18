@@ -13,7 +13,7 @@ cp -r ~/.config/sxhkd/ one/
 cp ~/.Xresources one/
 cp ~/.xinitrc one/
 cp ~/.zshrc one/
-cp -r ~/.oh-my-zsh/custom/plugins one/
+cp -r ~/.oh-my-zsh/ one/
 git add .
 git commit -m "update one"
 git push 
