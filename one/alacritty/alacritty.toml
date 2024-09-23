@@ -14,7 +14,7 @@ background = "#000000"
 foreground = "#C0C5CE"
 
 [colors.bright]
-black   = "#000000"
+black   = "#666666"
 blue    = "#495BFF"
 cyan    = "#2DC7FF"
 green   = "#00CC66"

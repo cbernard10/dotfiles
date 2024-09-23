@@ -146,4 +146,4 @@ super + {Left,Down,Up,Right}
 
 # lock screen 
 super + l
-    betterlockscreen -l --off 5
+    sleep 0.5; betterlockscreen -l --off 5
